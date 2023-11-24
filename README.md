@@ -1,9 +1,6 @@
 # Terraform
 
-Modularized approach using Terraform to deploy an EC2 instance with IAM role, security group, an encrypted EBS volume, and metadata stored securely in an S3 bucket with state locking (using DynamoDB)
-
-
-This Terraform project sets up a basic AWS infrastructure, including EC2 instances, VPC, subnets, IAM roles, and security groups.
+Terraform project sets up a basic AWS infrastructure, deploys an EC2 instance with IAM role, security group, an encrypted EBS volume, and metadata stored securely in an S3 bucket with state locking using DynamoDB.
 
 ## Prerequisites
 
