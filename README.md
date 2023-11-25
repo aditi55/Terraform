@@ -1,6 +1,15 @@
 # Terraform
 
 Terraform project sets up a basic AWS infrastructure, deploys an EC2 instance with IAM role, security group, an encrypted EBS volume, and metadata stored securely in an S3 bucket with state locking using DynamoDB.
+<br>
+The EC2 instance is configured to use Session Manager. 
+1. Created IAM Role EC2_SSM_Role for the SSM Agent.
+2. Selected an Amazon Linux AMI that has the SSM Agent preinstalled.
+3. Configure logging for Session Manager using CloudWatch
+<br>
+</br>
+Documentation - https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/connect-to-an-amazon-ec2-instance-by-using-session-manager.html
+
 
 ## Prerequisites
 
